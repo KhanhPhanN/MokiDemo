@@ -1,0 +1,48 @@
+    <div id ="san-pham">
+            <div class="container">
+                    <div class="row">
+                      <div class="col-sm-4">
+                            <img id="image" src="" width="300px" height="300px">
+                      </div>
+                      <div class="col-sm-6">
+                        <label>Tên sản phẩm: </label>
+                        <span id="name"></span><hr>
+                        <label>Giá sản phẩm: </label>
+                        <span id="price"></span><br>
+                        <label>Sản phẩm bán từ shop: </label>
+                        <span id="shop"> </span><br>
+                        <label>Số sản phẩm: </label>
+                        <span id="code"> </span><br>
+                        <label>Ngày đăng: </label>
+                        <span id="date"> </span><hr>
+                        <label>Trạng thái: </label>
+                        <span id="state"> </span><br>
+                        <label>Danh mục kèm theo: </label>
+                        <span id="list_attached"></span><br>
+                        <img src="shopping.png" width="40px" height="40px">
+                        <input id="gio_hang" type="button" value="Thêm vào giỏ hàng"> 
+                        
+                      </div>
+                    </div>
+                  </div>
+            <div class="option">
+                <ul>
+                    <li onclick="mota()"><a href="#">Mô tả</a></li>
+                    <li onclick="binhluan()"><a href="#">Đánh giá/Bình luận</a></li>
+                </ul>
+            </div>
+           <div id="mota">
+                
+           </div>
+
+           <div id="binhluan">
+                <label>Comment: </label>
+                <input type="text" placeholder="Comment your" id="Comment">
+                <input type="button" id="send" value="Send">
+               <div id = "showcomment">
+
+               </div>
+           
+           </div>
+    </div>
+  
