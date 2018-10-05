@@ -13,8 +13,8 @@ app.set("views",path.join(__dirname, "views"));
 
 var server  = require("http").Server(app);
 var io = require("socket.io")(server);
-server.listen(8080);
-
+server.listen(8081);
+console.log("server running at 8081");
 var mongoClient = require('mongodb').MongoClient;
 var url = "mongodb://localhost:27017/mydb";
 io.on("connection",function(socket){
